@@ -10,10 +10,10 @@ So I've designed this module to make that use case super easy.
 
 ```bash
 # with npm
-npm install --save headers-factory
+npm install --save headersfactory
 
 # with yarn
-yarn add headers-factory
+yarn add headersfactory
 ```
 
 ## Use
@@ -22,10 +22,10 @@ yarn add headers-factory
 
 ```jsx
 // with es6
-import headersFactory from 'headers-factory';
+import headersFactory from 'headersfactory';
 
 // with CommonJS
-const headersFactory = require('headers-factory');
+const headersFactory = require('headersfactory');
 
 // Example get with no JWT token
 const githubUrl = 'https://api.github.com/users/tylerbuchea/repos?sort=updated';

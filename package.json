@@ -1,19 +1,20 @@
 {
   "name": "headersfactory",
   "version": "1.0.1",
-  "description": "Opinionated headers factory for easy use with fetch and other AJAX things too I guess.",
+  "description":
+    "Opinionated headers factory for easy use with fetch and other AJAX things too I guess.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tylerbuchea/headers-factory.git"
+    "url": "git+https://github.com/tylerbuchea/headersfactory.git"
   },
   "author": "Tyler Buchea",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tylerbuchea/headers-factory/issues"
+    "url": "https://github.com/tylerbuchea/headersfactory/issues"
   },
-  "homepage": "https://github.com/tylerbuchea/headers-factory#readme"
+  "homepage": "https://github.com/tylerbuchea/headersfactory#readme"
 }
