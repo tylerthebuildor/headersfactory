@@ -1,8 +1,7 @@
 {
   "name": "headersfactory",
-  "version": "1.0.1",
-  "description":
-    "Opinionated headers factory for easy use with fetch and other AJAX things too I guess.",
+  "version": "1.0.2",
+  "description": "Opinionated headers factory for easy use with fetch and other AJAX things too I guess.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
