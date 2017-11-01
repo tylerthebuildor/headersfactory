@@ -1,6 +1,6 @@
 {
   "name": "headersfactory",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Opinionated headers factory for easy use with fetch and other AJAX things too I guess.",
   "main": "index.js",
   "scripts": {
