@@ -38,17 +38,18 @@ fetch(url, githubHeaders)
 
 // Example post and get with JWT token
 const madeupUrl = 'https://api.example.com/users';
-const jwtToken = 'IMAJWTTOKEN';
+const jwtToken = 'IMAJWTTOKEN'; // no need add "Bearer " it is added automatically
 
 // No we can use headers() to generate new headers with the JWT token automatically connected
-const headers = headersWithAuth(jwtToken);
+const headers = headersFactory(jwtToken);
 
-const headersPost = headers('post', { age: 27 });
+const headersPost = headers('post', { age: 27 }); // JSON is automatically strinigified and attached to the body of the request
 fetch(madeupUrl, headersPost)
     .then(response => response.json())
     .then(console.log)
     .then(console.error);
 
+// We can use headers() again and the JWT is still automatically attached even though we're performing a different call
 const headersGet = headers('get');
 fetch(madeupUrl, headersGet)
     .then(response => response.json())
